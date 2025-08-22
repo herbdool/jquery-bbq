@@ -6,6 +6,15 @@
  * Dual licensed under the MIT and GPL licenses.
  * http://benalman.com/about/license/
  */
+ 
+/*
+ * Additional changes to this file:
+ * - Removed support for IE8 and below https://github.com/cowboy/jquery-bbq/pull/48
+ * - Fixed prototype pollution (CVE-2021-20086) https://github.com/cowboy/jquery-bbq/pull/61
+ * - Minified with `uglifyjs jquery.ba-bbq.js --compress --comments -o jquery.ba-bbq.min.js`
+ *
+ * See Yii Framework which is also maintaining a fork: https://github.com/yiisoft/yii/pull/4563
+ */
 
 // Script: jQuery BBQ: Back Button & Query Library
 //
